@@ -1,13 +1,13 @@
 package com.example.helloworld;
 
-import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class LinearLayoutActivity extends Activity {
+public class ProgressBarActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_linear_layout);
+        setContentView(R.layout.activity_progress_bar);
     }
 }
